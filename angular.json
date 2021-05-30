@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lab-pwa"
+    }
+  },
+  "defaultProject": "lab-pwa",
+  "cli": {
+    "analytics": false
+  }
 }
