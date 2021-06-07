@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1623025896849,
+  "timestamp": 1623028871999,
   "index": "/lab-pwa/index.html",
   "assetGroups": [
     {
@@ -51,7 +51,7 @@
     "/lab-pwa/assets/icons/icon-512x512.png": "f1683ce6c9e95047dbd17c506d7b55c6c7a522ab",
     "/lab-pwa/assets/icons/icon-72x72.png": "3afd3d7902449e3a0ea3337d5237ae50086072d2",
     "/lab-pwa/assets/icons/icon-96x96.png": "df428c557e48ec7e99902f7d5e8b3b371a915deb",
-    "/lab-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/lab-pwa/favicon.ico": "578a8ffef7d4bef5217cf0addaefbbdc4fa1e28d",
     "/lab-pwa/index.html": "46ee89d7d0e730188e1065c25aeb9dd0373429e8",
     "/lab-pwa/main.fb2e1f8c30cb8d8226c2.js": "cbb5e542f62c8790b313e8db6ee87b6f8c308208",
     "/lab-pwa/manifest.webmanifest": "17ddef9906e025d04ac47788ecda168e5686a193",
