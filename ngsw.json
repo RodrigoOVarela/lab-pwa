@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1623022463455,
+  "timestamp": 1623025896849,
   "index": "/lab-pwa/index.html",
   "assetGroups": [
     {
@@ -43,14 +43,14 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/lab-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/lab-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/lab-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/lab-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/lab-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/lab-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/lab-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/lab-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/lab-pwa/assets/icons/icon-128x128.png": "a6bcf13e142009be4e8d6bf2cd556881578c462a",
+    "/lab-pwa/assets/icons/icon-144x144.png": "3cdf1a60bd772b286df7b7decc594b5f5c43a7ba",
+    "/lab-pwa/assets/icons/icon-152x152.png": "0523f3b3f3062e3a77b63cbfc9f13ef498802435",
+    "/lab-pwa/assets/icons/icon-192x192.png": "c96eefefe3bd916fb33a27155e7aa45399b3e793",
+    "/lab-pwa/assets/icons/icon-384x384.png": "ae31c0c39bdb6270d235ea71996d285ded2d4722",
+    "/lab-pwa/assets/icons/icon-512x512.png": "f1683ce6c9e95047dbd17c506d7b55c6c7a522ab",
+    "/lab-pwa/assets/icons/icon-72x72.png": "3afd3d7902449e3a0ea3337d5237ae50086072d2",
+    "/lab-pwa/assets/icons/icon-96x96.png": "df428c557e48ec7e99902f7d5e8b3b371a915deb",
     "/lab-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/lab-pwa/index.html": "46ee89d7d0e730188e1065c25aeb9dd0373429e8",
     "/lab-pwa/main.fb2e1f8c30cb8d8226c2.js": "cbb5e542f62c8790b313e8db6ee87b6f8c308208",
