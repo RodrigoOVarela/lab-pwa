@@ -1,3 +1,14 @@
 <div>
-  <p-menu [model]="items"></p-menu>
+    <p-menubar [model]="menubar">
+        <div>
+            <input type="text" pInputText placeholder="Search">
+            <button type="button" pButton label="Logout" icon="pi pi-power-off" style="margin-left:.25em"></button>
+        </div>
+    </p-menubar>
+</div>
+
+<router-outlet></router-outlet>
+
+<div>
+    <p-menu [model]="menu"></p-menu>
 </div>
