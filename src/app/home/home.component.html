@@ -1,3 +1,7 @@
-<div class="container text-center">
-    <P>Home</P>
-</div>
+<p-listbox [options]="chemical" optionLabel="name" [filter]="true">
+    <ng-template let-chemical pTemplate="item">
+        <div class="chemical-item" [routerLink]="['/login']">
+            <div>{{chemical.name}}</div>
+        </div>
+    </ng-template>
+</p-listbox>
