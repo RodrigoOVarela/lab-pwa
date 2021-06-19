@@ -16,13 +16,15 @@ import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
 import { MenuComponent } from './components/menu/menu.component';
 import {ListboxModule} from 'primeng/listbox';
+import { ChemicalDetailComponent } from './chemical-detail/chemical-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    MenuComponent
+    MenuComponent,
+    ChemicalDetailComponent
   ],
   imports: [
     BrowserModule,

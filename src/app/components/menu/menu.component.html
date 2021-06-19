@@ -1,8 +1,9 @@
-<nav class="navbar navbar-light bg-light shadow">
+<nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
         <button #btn type="button" pButton pRipple icon="pi pi-bars" data-bs-toggle="modal" data-bs-target="#menu-modal"
-            class="p-button-rounded p-button-secondary p-button-outlined"></button>
+            class="p-button-text" [ngStyle]="{color:'var(--surface-0)'}"></button>
         <span class="navbar-brand mb-0 h1">Help Lab</span>
+        <img src="assets/icons/icon-72x72.png" height="30" class="p-mr-2">
     </div>
 </nav>
 
@@ -16,7 +17,7 @@
             <div class="modal-body">
 
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Hematologia Clínica</li>
+                    <li class="list-group-item" [routerLink]="['/']">Hematologia Clínica</li>
                     <li class="list-group-item">Urinálise</li>
                     <li class="list-group-item">Parasitologia</li>
                     <li class="list-group-item">Contato</li>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  public chemical : any;
+  public chemical: any;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
-    this.chemical = this.loadCities();
+    this.chemical = this.loadChemicals();
   }
 
-  private loadCities(): any {
+  private loadChemicals(): any {
     return [
       { name: 'Acetona', id: '13' },
       { name: 'Albumina', id: '14' },
@@ -34,5 +35,10 @@ export class HomeComponent implements OnInit {
       { name: 'J', id: '11' },
       { name: 'K', id: '12' },
     ];
+  }
+
+  private chemicalDetails(item: any) {
+    console.log("Clicou:" + item.name);
+    this.router.navigate(['/detail', item.id]);
   }
 }
