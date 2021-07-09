@@ -1,0 +1,7 @@
+@media only screen and (max-width: 600px) {
+    .p-col-12.p-md-12.p-lg-12.p-sm-12 {
+        width: 1000px;
+        margin-left: -12px;
+        margin-block-end: 5px;
+    }
+}

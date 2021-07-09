@@ -1,4 +1,4 @@
-<p-listbox [options]="chemical" optionLabel="name" [filter]="true">
+<p-listbox [options]="biochemicalAnalysis" optionLabel="name" [filter]="true">
     <ng-template let-chemical pTemplate="item" >
         <div class="chemical-item" (click)="chemicalDetails(chemical)">
             <div>{{chemical.name}}</div>

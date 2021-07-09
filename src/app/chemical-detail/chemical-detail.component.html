@@ -1,3 +1,20 @@
 <i class="pi pi-arrow-left" style="font-size: 1.2rem" (click)="back()"></i>
 
-<p>{{id}}</p>
+<div class="p-col-12 p-md-12 p-lg-12 p-sm-12">
+    <p-button class="test" [icon]="activeState[0] ? 'pi pi-minus' : 'pi pi-plus'" (click)="toggle(0)" styleClass="p-button-text" [label]="istructions"></p-button>
+    <p-button [icon]="activeState[1] ? 'pi pi-minus' : 'pi pi-plus'" (click)="toggle(1)" styleClass="p-button-text" [label]="method"></p-button>
+    <p-button [icon]="activeState[2] ? 'pi pi-minus' : 'pi pi-plus'" (click)="toggle(2)" styleClass="p-button-text" [label]="production"></p-button>
+</div>
+
+<p-accordion>
+    <p-accordionTab [header]="istructions" [(selected)]="activeState[0]">
+       <P>INSTRUÇÕES DE PREPARO:</P>
+       <P>Jejum: Jejum aconselhável de 4 horas.</P>
+    </p-accordionTab>
+    <p-accordionTab [header]="method" [(selected)]="activeState[1]">
+        COLORIMÉTRICO
+    </p-accordionTab>
+    <p-accordionTab [header]="production" [(selected)]="activeState[2]">
+        Material: SORO  
+    </p-accordionTab>
+</p-accordion>

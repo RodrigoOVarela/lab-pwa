@@ -8,6 +8,11 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ChemicalDetailComponent implements OnInit {
   public id: string;
+  public activeState: boolean[] = [true, false, false];
+
+  public istructions: string = 'Instruções';
+  public method: string = 'Método';
+  public production: string = 'Produção';
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute) { }
 
@@ -15,8 +20,12 @@ export class ChemicalDetailComponent implements OnInit {
     this.activatedRoute.params.subscribe(params => this.id = params['id']);
   }
 
-  public back(){
+  public back() {
     this.router.navigate(['/']);
+  }
+
+  public toggle(index: number) {
+    this.activeState[index] = !this.activeState[index];
   }
 
 }

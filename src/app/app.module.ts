@@ -15,7 +15,9 @@ import { MenubarModule } from 'primeng/menubar';
 import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
 import { MenuComponent } from './components/menu/menu.component';
-import {ListboxModule} from 'primeng/listbox';
+import { ListboxModule } from 'primeng/listbox';
+import { AccordionModule } from 'primeng/accordion';
+
 import { ChemicalDetailComponent } from './chemical-detail/chemical-detail.component';
 
 @NgModule({
@@ -35,6 +37,7 @@ import { ChemicalDetailComponent } from './chemical-detail/chemical-detail.compo
     InputTextModule,
     ButtonModule,
     ListboxModule,
+    AccordionModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],

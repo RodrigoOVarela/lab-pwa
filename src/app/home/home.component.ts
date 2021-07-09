@@ -8,15 +8,15 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  public chemical: any;
+  public biochemicalAnalysis: any;
 
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    this.chemical = this.loadChemicals();
+    this.biochemicalAnalysis = this.loadBiochemicalAnalysis();
   }
 
-  private loadChemicals(): any {
+  private loadBiochemicalAnalysis(): any {
     return [
       { name: 'Acetona', id: '13' },
       { name: 'Albumina', id: '14' },
